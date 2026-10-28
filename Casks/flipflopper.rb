@@ -1,11 +1,11 @@
 cask "flipflopper" do
-  version "0.18.1"
+  version "0.19.0"
 
   if Hardware::CPU.intel?
-    sha256 "5626e2a609d5e08d6039f68d6f3ba547d610057ed26c6b8df6469c32c901b4e1"
+    sha256 "ab7b111b2151ce7ce044f33a3e27e2aa32a4e496b46ca3e2084f274627cf0fbe"
     url "https://github.com/AraujoJordan/FlipFlopper/releases/download/#{version}/FlipFlopper_#{version}_x64.dmg"
   else
-    sha256 "78421088d937ebcfd9f2023d35a85f6afd537c0f847e6f29a900b19147ba2b48"
+    sha256 "f2da062d02b33e5169dd96403272fb4a769cad2b296cc3328619290a3e32f0a2"
     url "https://github.com/AraujoJordan/FlipFlopper/releases/download/#{version}/FlipFlopper_#{version}_aarch64.dmg"
   end
 
